@@ -63,7 +63,12 @@ module.exports = {
         950: 'hsl(341, 100%, 18%)',
       },
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '375px',
+        '2lg': '1440px',
+      },
+    },
   },
   plugins: [],
 }
