@@ -554,6 +554,11 @@ video {
   display: none;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -594,12 +599,20 @@ video {
   display: table-cell;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-1\/2 {
   width: 50%;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .table-auto {
@@ -654,6 +667,14 @@ video {
   gap: 2rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -704,8 +725,17 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity, 1));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-7 {
   padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-8 {
@@ -844,6 +874,11 @@ video {
   color: hsl(329 100% 68% / var(--tw-text-opacity, 1));
 }
 
+.text-brown-500 {
+  --tw-text-opacity: 1;
+  color: hsl(24 55% 53% / var(--tw-text-opacity, 1));
+}
+
 .\*\:border-b > * {
   border-bottom-width: 1px;
 }
@@ -883,4 +918,110 @@ video {
 
 .even\:border-b-2:nth-child(even) {
   border-bottom-width: 2px;
+}
+
+@media (min-width: 768px) {
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .md\:aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
+  .md\:rounded-2xl {
+    border-radius: 1rem;
+  }
+
+  .md\:rounded-\[3rem\] {
+    border-radius: 3rem;
+  }
+
+  .md\:rounded-\[2rem\] {
+    border-radius: 2rem;
+  }
+
+  .md\:border-t-0 {
+    border-top-width: 0px;
+  }
+
+  .md\:bg-brown-100 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(35 57% 92% / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:bg-stone-100 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(31 53% 90% / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .\32lg\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
+  .\32lg\:max-w-3xl {
+    max-width: 48rem;
+  }
+
+  .\32lg\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .\32lg\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .\32lg\:pt-32 {
+    padding-top: 8rem;
+  }
 }
