@@ -937,6 +937,10 @@ video {
     gap: 2.5rem;
   }
 
+  .md\:gap-9 {
+    gap: 2.25rem;
+  }
+
   .md\:rounded-xl {
     border-radius: 0.75rem;
   }
@@ -1013,6 +1017,30 @@ video {
     max-width: 48rem;
   }
 
+  .\32lg\:gap-12 {
+    gap: 3rem;
+  }
+
+  .\32lg\:rounded-\[3rem\] {
+    border-radius: 3rem;
+  }
+
+  .\32lg\:rounded-\[2\.5rem\] {
+    border-radius: 2.5rem;
+  }
+
+  .\32lg\:rounded-2xl {
+    border-radius: 1rem;
+  }
+
+  .\32lg\:p-12 {
+    padding: 3rem;
+  }
+
+  .\32lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .\32lg\:pt-16 {
     padding-top: 4rem;
   }
@@ -1023,5 +1051,19 @@ video {
 
   .\32lg\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .\32lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\32lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .\32lg\:text-\[2\.75rem\] {
+    font-size: 2.75rem;
   }
 }
