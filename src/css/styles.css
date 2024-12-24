@@ -554,7 +554,6 @@ video {
   display: none;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.table {
+  display: table;
 }
